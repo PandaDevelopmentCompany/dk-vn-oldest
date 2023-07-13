@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+gorod53.ru	TRUE	/	FALSE	1999999999	k_session	1b2adca848ef4ac49440ab22233b92ca
+gorod53.ru	TRUE	/	FALSE	1999999999	cookie_confirm	1
+
