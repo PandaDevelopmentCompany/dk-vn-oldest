@@ -205,9 +205,9 @@ textarea.itext {
 /* ========== all ========== */
 
 .album div {
-	float:left; 
-	width:253px; 
-	height: 173px; 
+	float:left;
+	width:253px;
+	height: 173px;
 }
 
 
@@ -280,7 +280,7 @@ padding:0 10px;
 }
 
 
-/* === одно === */ 
+/* === одно === */
 .left_wrap div.one span.date{
 	font-family: 'Ubuntu-C';
 	color: #b3b3b3;
@@ -303,7 +303,7 @@ padding:0 10px;
 	font-size: 15px;
 }
 .left_wrap div.list img{
-	float: left; 
+	float: left;
 	margin-right: 10px;
 }
 .left_wrap div.list p{
@@ -357,7 +357,7 @@ padding:0 10px;
 	color:#999;
 }
 .right_block div.list img{
-	float: left; 
+	float: left;
 	margin-right: 5px;
 }
 .right_block div.list p{
@@ -1070,4 +1070,8 @@ input.submit {
 }
 .off {
 	color:#666;
+}
+
+.notify-bar {
+	display: none !important;
 }
