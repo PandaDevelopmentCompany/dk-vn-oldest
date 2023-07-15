@@ -1,0 +1,250 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*@font-face {
+	font-family: 'OpenSans-Regular';
+	src: url('OpenSans-Regular.eot')
+}
+
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src: url('OpenSans-Regular.ttf')
+}
+
+@font-face {
+	font-family: 'OpenSans-Semibold';
+	src: url('OpenSans-Semibold.eot')
+}
+
+@font-face {
+	font-family: 'OpenSans-Semibold';
+	src: url('OpenSans-Semibold.ttf')
+}
+
+@font-face {
+	font-family: 'PT-Sans-Narow-Bold';
+	src: url('PT-Sans-Narow-Bold.eot')
+}
+
+@font-face {
+	font-family: 'PT-Sans-Narow-Bold';
+	src: url('PT-Sans-Narow-Bold.ttf')
+}
+
+@font-face {
+	font-family: 'futura-condenced-normal';
+	src: url('futura-condenced-normal.eot');
+}
+
+@font-face {
+	font-family: 'futura-condenced-normal';
+	src: url('futura-condenced-normal.ttf');
+}*/
+
+@font-face {
+	font-family: 'Ubuntu-C';
+	src: url('Ubuntu-C.eot');
+}
+
+@font-face {
+	font-family: 'Ubuntu-C';
+	src: url('Ubuntu-C.ttf');
+}
+
+html,
+body,
+div {
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: Tahoma;
+	font-size: 100%;
+	color: #4f4f4f;
+	background: #fff url(../images/tpl/body.gif) no-repeat center top;
+}
+
+/* ========== h ========== */
+
+h1,
+div.h1,
+h2,
+div.h2,
+h3,
+div.h3,
+h4,
+div.h4,
+h5,
+div.h5,
+h6,
+div.h6 {
+	font-family: 'Ubuntu-C';
+	margin: 0.2em 0;
+	text-transform: uppercase;
+	color: #407990;
+}
+
+/* ========== h1 ========== */
+
+h1,
+div.h1 {
+	font-size: 2.25em;
+}
+
+/* ========== h2 ========== */
+
+h2,
+div.h2 {
+	font-size: 1.83em;
+}
+
+/* ========== h3 ========== */
+
+h3,
+div.h3 {
+	font-size: 1.66em;
+}
+
+/* ========== h4 ========== */
+
+h4,
+div.h4 {
+	font-size: 1.5em;
+}
+
+/* ========== h5 ========== */
+
+h5,
+div.h5 {
+	font-size: 1.33em;
+}
+
+/* ========== table ========== */
+
+table {
+	border: 0;
+	border-collapse: collapse;
+}
+
+/* ========== A ========== */
+
+a {
+	color: #407990;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* ========== UL ========== */
+
+/* ==== menu ==== */
+
+ul.menu,
+ul.menu li,
+ul.form,
+ul.form li,
+ul.lists,
+ul.lists li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-image: none;
+}
+
+ul.menu,
+ul.menu li {
+	display: block;
+}
+
+/* ========== form ========== */
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+/* ====== label ====== */
+
+.lbl {
+	display: block;
+	font-size: 11px;
+	padding: 0 0 4px 0;
+}
+
+/* ========== img ========== */
+
+img {
+	border: 0;
+}
+
+/* ========== sep ========== */
+
+/* ========== sep_color ========== */
+
+.sep_color,
+.sep_color .left,
+.sep_color .right {
+	height: 1px;
+}
+
+.sep_color .left {
+	float: left;
+	width: 50%;
+	background: #2b282b;
+}
+
+.sep_color .right {
+	margin-left: 50%;
+	background: #2b282b;
+}
+
+/* ========== all ========== */
+
+.clr {
+	height: 0;
+	clear: both;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.align_left {
+	text-align: left !important;
+}
+
+.align_right {
+	text-align: right !important;
+}
+
+.flt_left {
+	float: left;
+}
+
+.flt_right {
+	float: right;
+}
+
+/* ========== color ========== */
+
+.yelow {
+	color: #f5ca00;
+}
+
+.red {
+	color: #dd5f53;
+}
+
+.brown {
+	color: #b88067;
+}
+
+.red_bg {
+	background: #fd2f0d;
+	color: #fff;
+	padding: 0 5px;
+}
